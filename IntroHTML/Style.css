@@ -1,0 +1,13 @@
+﻿#firstHeading {
+    color:darkorange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+background-color:grey;
+}
+
+.introText{
+    color:#ffffff;
+    font-family: 'Zilla Slab', serif;
+}
