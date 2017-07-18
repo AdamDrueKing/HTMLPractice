@@ -1,13 +1,48 @@
 ﻿#firstHeading {
-    color:darkorange;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center
+    /*color:darkorange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
 }
 
-body {
+.threeCols {
+    column-count:3;
+    column-gap:15px;
+}
+
+#fullWidthP {
+    column-span:all;
+}
+
+div p {
+    column-span:none;
+}
+p{
+    text-align:justify;
+}
+#stubbornP{
+    margin-top:0px;
+}
+
+.twoCols {
+    column-count:2;
+    column-gap:15px;
+}
+
+div p {
+    column-span:none;
+}
+p{
+    text-align:justify;
+}
+#alsoStubbornP {
+    margin-top:0px;
+}
+/*body {
 background-color:grey;
 }
 
-.introText{
+h1{
     color:#ffffff;
     font-family: 'Zilla Slab', serif;
-}
+    text-align:center;
+}*/
